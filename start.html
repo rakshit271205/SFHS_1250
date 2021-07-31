@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
+   <script src=""></script>
     <link rel="stylesheet" href="styles.css">
       <meta charset="utf-8">
    </head>
@@ -16,5 +17,20 @@
           <a href="#about">About</a>
         </div>
       </div>
+      <form name="form1" id="form1" action="/action_page.php">
+         Subjects: <select name="subject" id="subject">
+           <option value="" selected="selected">Select subject</option>
+         </select>
+         <br><br>
+         Topics: <select name="topic" id="topic">
+           <option value="" selected="selected">Please select subject first</option>
+         </select>
+         <br><br>
+         Chapters: <select name="chapter" id="chapter">
+           <option value="" selected="selected">Please select topic first</option>
+         </select>
+         <br><br>
+         <input type="submit" value="Submit"> 
+       </form>
    </body>
 </html>
