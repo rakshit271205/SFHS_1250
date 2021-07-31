@@ -1,10 +1,14 @@
 var subjectObject = {
-    "Front-end": {
+    "Fruit": {
       "HTML": ["Links", "Images", "Tables", "Lists"],
       "CSS": ["Borders", "Margins", "Backgrounds", "Float"],
       "JavaScript": ["Variables", "Operators", "Functions", "Conditions"] 
     },
-    "Back-end": {
+    "Vegetable": {
+      "PHP": ["Variables", "Strings", "Arrays"],
+      "SQL": ["SELECT", "UPDATE", "DELETE"]
+    },
+    "Pulses": {
       "PHP": ["Variables", "Strings", "Arrays"],
       "SQL": ["SELECT", "UPDATE", "DELETE"]
     }
